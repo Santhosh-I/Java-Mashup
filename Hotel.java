@@ -4,7 +4,7 @@ public class Hotel{
     public static void main(String [] args)
     {
         Hotel server1 = new Hotel();
-        System.out.print(server1.coffee);
+        System.out.println(server1.coffee);
         System.out.print(server1.tea);
     }
 }
