@@ -23,14 +23,19 @@ class Animals{
 
 class Dog extends Animals{
     void sound(){
-        System.out.println("Barks");
+        System.out.println("BARKS");
+    }
+}
+
+class Cat extends Dog{
+    void sound1(){
+        System.out.println("MEOW");
     }
 }
 
 public class Mainclass{
     public static void main(String[] args){
-        Dog D1 = new Dog();
-        D1.sound();
+        Cat D1 = new Cat();
         D1.eat();
     }
 }
