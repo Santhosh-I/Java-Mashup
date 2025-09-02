@@ -9,7 +9,9 @@ public class Bank {
         System.out.print("Enter the amount:");
         int amount = sc.nextInt();
         if (B1.money>amount){
-            System.out.print("The entered amount is :"+amount);
+            System.out.println("The entered amount is :"+amount);
+            int Balance = B1.money - amount;
+            System.out.println("Current Balance:"+ Balance);
         }
         else{
             System.out.print("Insufficient Balance");
