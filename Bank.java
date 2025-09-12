@@ -6,7 +6,7 @@ public class Bank {
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
         Bank B1 = new Bank();
-        System.out.print("Enter the amount:");
+        System.out.print("Enter the amount :");
         int amount = sc.nextInt();
         if (B1.money>amount){
             System.out.println("The entered amount is :"+amount);
